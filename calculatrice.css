@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+.calculatrice{
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+#ecran{
+    width: 100vh;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+div.boutons{
+    display: flex;
+    width: 100vh;
+    margin: auto 20px;
+}
+button{
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    align-content: center;
+}
+button:hover{
+    background: #777;
+    cursor: pointer;
+}
