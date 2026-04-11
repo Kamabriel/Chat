@@ -84,3 +84,9 @@ footer {
     padding: 15px;
     text-align: center;
 }
+@media (max-width: 480px) {
+    body{
+        max-width: 100%;
+        color: red;
+    }
+}
