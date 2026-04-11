@@ -91,9 +91,11 @@ footer {
     }
 }
 
-@media (max-width: 320px) and (max-width: 768px) {
+@media (max-width: 480px) {
     body{
-        width: 100%;
         color: blue;
+    }
+    footer{
+        color: green;
     }
 }
