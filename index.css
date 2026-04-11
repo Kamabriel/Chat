@@ -95,6 +95,9 @@ footer {
     body{
         color: blue;
     }
+    section p{
+        color: orange;
+    }
     footer{
         color: green;
     }
