@@ -100,7 +100,7 @@ footer {
         padding: 8px 16px;
     }
 }
-/*responsive mobile*/
+/* responsive mobile
 @media (max-width: 480px) {
   body {
         font-size: 16px; /* base lisible */
@@ -135,4 +135,4 @@ footer {
         text-align: center;
         margin: 5px 0;
     }
-}
+} */
