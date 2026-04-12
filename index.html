@@ -1,44 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Premier Site</title>
+    <title>Mon Premier Site Web</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Bienvenue empp de ik !</h1>
-        <p>Je crée des services en ligne 💻</p>
-    </header>
-    
-    <main>
-        <section>
-            <nav>
-                <a href="calculatrice.html">Utiliser la calculatrice</a>
-            </nav>
-        </section>
+<header>
+    <h1>Bienvenue sur mon site</h1>
 
-        <section>
-            <h2>Mes services</h2>
-            <ul>
-                <li>Création de site web</li>
-                <li>Transfert d'argent</li>
-                <li>VPN et solutions en ligne</li>
-            </ul>
-        </section>
+    <button class="menu-toggle">☰</button>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>WhatsApp : +237 696761031</p>
-        </section>
-    </main>
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://wa.me/237696761031" target="_blank">WhatsApp</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <footer>
-        <p>&copy; 2026 Mon Premier Site by inze kamabriel. Tous droits réservés.</p>
-    </footer>
+<main>
+
+    <!-- HERO -->
+    <section id="home" class="card">
+        <h2>Accueil</h2>
+        <p>Bienvenue sur mon site. Je crée des solutions web modernes et efficaces.</p>
+    </section>
+
+    <section id="about" class="card">
+        <h2>À propos</h2>
+        <p>Je suis Inze Kamabriel, passionné de développement web et création de services en ligne.</p>
+    </section>
+
+    <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Contactez-moi facilement via WhatsApp</p>
+        <a href="https://wa.me/237696761031" class="btn" target="_blank">
+            Me contacter
+        </a>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section class="card">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Node.js / PHP</li>
+        </ul>
+    </section>
+
+    <!-- REALISATIONS -->
+    <section class="card">
+        <h2>Mes Réalisations</h2>
+        <ul>
+            <li>Portfolio personnel</li>
+            <li>Calculatrice web</li>
+            <li>Blog développement</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Inze Kamabriel - Tous droits réservés</p>
+</footer>
+
+<script src="index.js"></script>
 
 </body>
 </html>
