@@ -100,6 +100,7 @@ footer{
     header{
         display: block;
         padding: 15px;
+
     }
     header h1{
         margin-bottom: 15px;
@@ -108,12 +109,13 @@ footer{
         flex-direction: column;
         display: none;
         text-align: center;
+        gap: 5px;
     }
     nav ul.active {
         display: flex;
     }
     .menu-toggle {
-        display: block;  
+        display: block; 
     } 
     nav ul li{
         border-bottom: 1px solid orange;
